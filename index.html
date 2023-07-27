@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarWars</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <form id="container">
+        <h2>Кого или что будем искать?</h2>
+        <div class="inner_1">
+            <select name="option" id="select_id">
+                <option value="">--Выберите вариант--</option>
+                <option value="peoples">Людей</option>
+                <option value="planets">Планеты</option>
+                <option value="films">Фильмы</option>
+            </select>
+            <input type="number" id="number">
+            <button type="btn" id="btn_find">Найти</button>
+        </div>
+        <div class="inner_2">
+            <h1 id="info"></h1>
+            <h2 id="err"></h2>
+        </div>
+    </form>
+
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
