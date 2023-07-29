@@ -48,3 +48,7 @@ button {
 button:hover {
     border-color: rgb(156, 154, 154);
 }
+
+#err {
+    color: red;
+}
